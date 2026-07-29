@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 4.3.0)
 
-project(executable LANGUAGES C CXX)
+project(cram VERSION 0.1.0 DESCRIPTION "tool for multiple file compression" LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -15,5 +15,6 @@ add_executable(cram
 
 )
 
-target_include_directories(cram PRIVATE include)
+add_subdirectory(src)
+target_include_directories(cram PUBLIC include)
 
