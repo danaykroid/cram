@@ -11,16 +11,8 @@
 - user should be able to extract the files and dirs
 - corruption check after untar
 
+
 ### Tar working 
 
  - tar stores data blocks in 512 bytes of sequence of block that stores the metadata like 
  file permissions and things archieve ends with two empty blocks as terminator
-
-### Tasks to achieve 
-
-1. just pack multiple files in a single file (no compression, no extraction no extraction logic)
-2. unpack the same files back(no permission or timestamps retention)
-3. pack and unpack with permissions
-4. add compression to pack into single file 
-5. unpack with decompression
-6. hit performance benchmarks 
