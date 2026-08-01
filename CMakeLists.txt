@@ -11,8 +11,7 @@ include_directories(include)
 
 add_executable(cram 
 	cmd/main.cpp
-	src/cram/cram.cpp
-
+	src/files/file.cpp
 )
 
 add_subdirectory(src)

@@ -9,4 +9,4 @@ build:
 
 .PHONY: run 
 run:
-	./build/cram
+	build/cram
