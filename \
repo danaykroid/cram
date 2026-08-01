@@ -1,0 +1,18 @@
+### Tools used 
+
+- build system: Cmake 
+- language: cpp
+
+### Requirements 
+
+- user should be able to compress multiple dir and files and once with sample structure 
+- it should restore the permissions and symlinks
+- user should be able to choose between multiple compression algos 
+- user should be able to extract the files and dirs
+- corruption check after untar
+
+
+### Tar working 
+
+ - tar stores data blocks in 512 bytes of sequence of block that stores the metadata like 
+ file permissions and things archieve ends with two empty blocks as terminator
